@@ -1,4 +1,4 @@
-## Project Idea
+# Project Idea
 This is a Frontend store for selling electronic devices using latest version of bootstrap ,angular and typscript.
 
 # AngularProductBootstrap
