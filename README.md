@@ -1,3 +1,6 @@
+## Project Idea
+This is a Frontend store for selling electronic devices using latest version of bootstrap ,angular and typscript.
+
 # AngularProductBootstrap
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
