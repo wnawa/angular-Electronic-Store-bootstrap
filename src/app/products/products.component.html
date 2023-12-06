@@ -1,0 +1,40 @@
+<!-- <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3"> -->
+  @if(pruductArr.length>0) { @for(product of pruductArr; track product.id){ @if
+  ( product.id % 2 ){
+  <div
+    class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
+  >
+    <div class="my-3 py-3">
+      <!-- //interpolation data binding -->
+      <h2 class="display-5">{{ product.Name }}</h2>
+
+      <p class="lead">{{ product.detail }}</p>
+    </div>
+    <div
+      class="bg-body-tertiary shadow-sm mx-auto"
+      style="width: 80%; height: 300px; border-radius: 21px 21px 0 0"
+    >
+      <!-- //property data binding -->
+      <img alt="item" [src]="product.imgPath" class="img-fluid" />
+    </div>
+  </div>
+  }@else{
+  <div
+    class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
+  >
+    <div class="my-3 py-3">
+      <!-- //interpolation data binding -->
+      <h2 class="display-5">{{ product.Name }}</h2>
+
+      <p class="lead">{{ product.detail }}</p>
+    </div>
+    <div
+      class="bg-body-tertiary shadow-sm mx-auto"
+      style="width: 80%; height: 300px; border-radius: 21px 21px 0 0"
+    >
+      <!-- //property data binding -->
+      <img alt="item" [src]="product.imgPath" class="img-fluid" />
+    </div>
+  </div>
+  } } }
+<!-- </div> -->
